@@ -136,7 +136,7 @@ export const menu_list = [
             name: "Veg salad",
             image: food_2,
             price: 180,
-            description: "A vibrant mix of fresh vegetables and herbs.",
+            description: "A colorful blend of fresh vegetables and aromatic herbs.",
             category: "Salad",
             rating: {
                 score: 4.2,
@@ -184,7 +184,7 @@ export const menu_list = [
             name: "Peri Peri Rolls",
             image: food_6,
             price: 120,
-            description: "Spicy and tangy rolls with a Peri Peri twist.",
+            description: "Rolls with a Peri Peri twist, offering a spicy and tangy flavor.",
             category: "Rolls",
             rating: {
                 score: 4.1,
@@ -208,7 +208,7 @@ export const menu_list = [
             name: "Veg Rolls",
             image: food_8,
             price: 150,
-            description: "Crispy rolls filled with seasoned vegetables.",
+            description: "Crispy rolls filled with  vegetables a  crunch and vibrant flavor.",
             category: "Rolls",
             rating: {
                 score: 3.7,
@@ -244,7 +244,7 @@ export const menu_list = [
             name: "Jar Ice Cream",
             image: food_11,
             price: 100,
-            description: "Portable and fun, ice cream served in a jar.",
+            description: "Portable and fun, ice cream served in a jar whimsical treat.",
             category: "Deserts",
             rating: {
                 score: 3.9,
@@ -256,7 +256,7 @@ export const menu_list = [
             name: "Vanilla Ice Cream",
             image: food_12,
             price: 120,
-            description: "Classic vanilla ice cream, smooth and creamy.",
+            description: "Classic vanilla ice cream, velvety smooth and creamy",
             category: "Deserts",
             rating: {
                 score: 4.3,
@@ -316,7 +316,7 @@ export const menu_list = [
             name: "Cup Cake",
             image: food_17,
             price: 140,
-            description: "A soft and fluffy cupcake with rich frosting.",
+            description: "A soft, fluffy cupcake topped with decadent, rich frosting.",
             category: "Cake",
             rating: {
                 score: 4.7,
@@ -424,7 +424,7 @@ export const menu_list = [
             name: "Tomato Pasta",
             image: food_26,
             price: 180,
-            description: "Pasta tossed in a tangy tomato sauce.",
+            description: "Pasta elegantly tossed in a zesty, tangy tomato sauce.",
             category: "Pasta",
             rating: {
                 score: 4.5,
@@ -460,7 +460,7 @@ export const menu_list = [
             name: "Butter Noodles",
             image: food_29,
             price: 140,
-            description: "Noodles coated in a buttery, savory sauce.",
+            description: "Tender noodles enveloped in a creamy, savory sauce",
             category: "Noodles",
             rating: {
                 score: 4.2,
@@ -496,7 +496,7 @@ export const menu_list = [
             name: "Cooked Noodles",
             image: food_32,
             price: 150,
-            description: "Simple and satisfying cooked noodles.",
+            description: "Deliciously uncomplicated, satisfying cooked noodles",
             category: "Noodles",
             rating: {
                 score: 4.2,
