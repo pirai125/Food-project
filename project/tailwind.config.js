@@ -9,9 +9,6 @@ export default {
       fontFamily:{
         dm_sans :["DM Sans", "sans-serif"]
       },
-      backgroundImage:{
-        header_img: "url(src/assets/food-assests/header_img.png)"
-      }
     },
   },
   plugins: [],

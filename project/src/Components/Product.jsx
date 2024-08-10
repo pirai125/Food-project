@@ -1,14 +1,17 @@
 
+import { useContext } from "react";
 import Productitems from "./Productitems";
+import { cartitemsContext } from "../App";
 
 export default function Product({ food_list, menu_list, category, setCategory }) {
+    const {assets}= useContext(cartitemsContext)
     function handleCategoryClick(menu_name) {
         setCategory(prev => prev === menu_name ? "All" : menu_name);
      }
 
     return (
         <div className=" p-4  ">
-            <div className="bg-header_img bg-cover h-[44vw] relative z-0 lg:h-[28vw] ">
+            <div className=" bg-cover h-[44vw] relative z-0 lg:h-[28vw]" style={{backgroundImage : `url(${assets.header_img})`}} >
                 <div className=" text-white flex flex-col gap-[1.5vw] max-w-96 absolute left-[4vw] bottom-[10%] sm:bottom-[20%]">
                     <h1 className="text-4xl font-bold">Fresh Eats at Your Fingertips</h1>
                     <p className="text-md font-medium">Satisfy your cravings with just a few clicks and enjoy the convenience of hassle-free food ordering.</p>
