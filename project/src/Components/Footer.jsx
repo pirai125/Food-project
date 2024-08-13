@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="w-8/12">
       <img src={assets.logo} alt="logo" className="h-7 my-2"/>
       <p className="text-sm">Bringing the best of your local flavors to your doorstep. Thanks for choosing Tomato!</p>
-      <div className="flex my-2">
+      <div className="flex my-3">
       <a href="https://x.com/iampirai125?t=bo46pupY1LVdpm03XjLBCA&s=09" target="_blank" rel="noopener noreferrer"><img src={assets.twitter_icon} alt="twitter_icon"   className="px-1"/></a>
       <a href="https://www.linkedin.com/in/piraisudan2003/" target="_blank" rel="noopener noreferrer"><img src={assets.linkedin_icon} alt="linkedin_icon" className="px-1" /></a>
       <a href="mailto:pirair2003@gmail.com ?subject=text" target="_blank" rel="noopener noreferrer"><img src={assets.facebook_icon} alt="facebook_icon" className="px-1" /></a>
